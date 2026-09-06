@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 0.2s ease
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 20px;
+    background-color:rgb(131, 0, 0);
+    color: white;
+    border-top: rgb(0, 0, 0);
+    border-top-style: solid;
+    border-bottom: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    font-size: 32px;
+}
+
+h2 {
+    padding: 0px 30px;
+    font-size: 24px;
+}
+
+p {
+    padding: 30px 30px;
+    font-size: 22px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(27, 26, 25);
+    color: white;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    background-color:grey;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.nav-links li {
+    display: flex;
+    padding: 0;
+    font-size: 20px;
+}
+
+.nav-links a {
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+.nav-links li:hover {
+    background-color: darkgrey;
+}
+
+.list {
+    list-style: disc;
+    padding: 20px 60px;
+}
+
+.list li {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infobox {
+    width: 100%;
+    border-style: solid;
+    border-color: darkgrey;
+    color: black;
+    border-radius: 5%;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    background-color:grey;
+    box-sizing: border-box;
+}
+
+.infobox h2 {
+    text-align: center;
+}
+
+.map {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    padding: 20px 20px;
+}
